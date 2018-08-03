@@ -20,14 +20,13 @@
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
-    
+
 
     html {
       /* background: rgba(115, 237, 1, 0.692) url(http://unsplash.it/1500/1000?image=881&blur=50); */
       background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
       background-size: cover;
       font-family: 'Oxygen Mono', monospace;
-      font: maroon;
       text-align: center;
       font-size: 10px;
     }
@@ -71,11 +70,11 @@
   </style>
 
   <script>
-  
+
     function setDate() {
       const now = new Date();
 
-      const seconds = now.getSeconds(); 
+      const seconds = now.getSeconds();
       document.getElementById('timeSeconds').innerHTML = seconds;
 
       const mins = now.getMinutes();
